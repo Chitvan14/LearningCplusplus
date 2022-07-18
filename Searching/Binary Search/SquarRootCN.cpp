@@ -6,12 +6,12 @@ int getSquareRoot(int n)
 {
     int start = 0;
     int end = n;
-    long long int mid = start + (end - start) / 2;
-
-    int ans = -1;
+    long long int mid;
+    long long int ans = -1;
 
     while (start <= end)
     {
+        mid = start + (end - start) / 2;
         long long int square = mid * mid;
 
         if (square == n)
@@ -28,7 +28,6 @@ int getSquareRoot(int n)
             ans = mid;
             start = mid + 1;
         }
-        long long int mid = start + (end - start) / 2;
     }
     return ans;
 }
@@ -38,11 +37,10 @@ double getPreciseSquareRoot(int n, int decimalNum)
     int tempVal = getSquareRoot(n);
     double factor = 1;
     double res;
-
     for (double i = 0; i < decimalNum; i++)
     {
         factor = factor / 10;
-        for (double j = tempVal; j * j <= n; j = j + factor)
+        for (double j = tempVal; j * j < n; j = j + factor)
         {
             res = j;
         }
@@ -58,6 +56,6 @@ int main()
     freopen("output.txt", "w", stdout);
 #endif
 
-    cout << "Square Root of " << 36 << " is " << getPreciseSquareRoot(36, 3) << endl;
+    cout << "Square Root of " << 101 << " is " << getPreciseSquareRoot(101, 3) << endl;
     return 0;
 }
