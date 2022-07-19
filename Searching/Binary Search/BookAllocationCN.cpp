@@ -57,7 +57,7 @@ int main()
     freopen("output.txt", "w", stdout);
 #endif
 
-    vector<int> arr = {10, 20, 30, 40};
+    vector<int> arr = {10, 40, 30, 20};
     int numberOfStudents = 2;
     cout << "Printing Answer " << AllocateBooks(arr, arr.size(), numberOfStudents) << endl;
     return 0;
