@@ -1,0 +1,30 @@
+Using Binary Search lets find 7 and 10 in bv
+7? >> 1
+10? >> 0
+-----------------------------
+Upper Bound & Lower Bound
+Lower Bound of 7 >> 2
+Upper Bound of 7 >> 5
+-----------------------------
+Max, Min, Swap & Reverse
+a -> 8
+b -> 1
+
+Max >> 8
+Min >> 1
+
+swaping >> 
+a -> 8
+b -> 1
+
+string -> abcdefghijklmnopqrstuvwxyz
+reverse >> 
+Re. string -> zyxwvutsrqponmlkjihgfedcba
+
+Before vrotation vector
+1 9 3 4 2 
+After vrotation vector
+9 3 4 2 1 
+
+IntroSort of vrotation
+1 2 3 4 9 
