@@ -1,0 +1,25 @@
+left 
+0 
+right 
+0 
+
+left 
+40 0 
+right 
+0 
+
+left 
+30 
+right 
+0 
+
+left 
+50 1073741824 
+right 
+0 
+
+left 
+60 1073741824 0 
+right 
+0 1073741824 0 
+

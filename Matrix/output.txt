@@ -1,0 +1,9 @@
+inside
+inside 40
+inside 30
+inside 35
+inside 25
+inside 29
+inside 33
+inside 32
+{3,0}
